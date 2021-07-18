@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D8C6089B26A3F9D400FCAA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6089A26A3F9D400FCAA42 /* AppDelegate.swift */; };
 		D8C6089D26A3F9D400FCAA42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6089C26A3F9D400FCAA42 /* SceneDelegate.swift */; };
-		D8C6089F26A3F9D400FCAA42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6089E26A3F9D400FCAA42 /* ViewController.swift */; };
 		D8C608A226A3F9D400FCAA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C608A026A3F9D400FCAA42 /* Main.storyboard */; };
 		D8C608A426A3F9D500FCAA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C608A326A3F9D500FCAA42 /* Assets.xcassets */; };
 		D8C608A726A3F9D500FCAA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C608A526A3F9D500FCAA42 /* LaunchScreen.storyboard */; };
 		D8C608B226A3F9D600FCAA42 /* VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608B126A3F9D600FCAA42 /* VIPERTests.swift */; };
 		D8C608BD26A3F9D600FCAA42 /* VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608BC26A3F9D600FCAA42 /* VIPERUITests.swift */; };
+		D8C608CC26A3FA8E00FCAA42 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608CB26A3FA8E00FCAA42 /* View.swift */; };
+		D8C608CE26A3FA9C00FCAA42 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608CD26A3FA9C00FCAA42 /* Interactor.swift */; };
+		D8C608D026A3FAAD00FCAA42 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608CF26A3FAAD00FCAA42 /* Presenter.swift */; };
+		D8C608D226A3FAC300FCAA42 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608D126A3FAC300FCAA42 /* Entity.swift */; };
+		D8C608D426A3FACD00FCAA42 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C608D326A3FACD00FCAA42 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		D8C6089726A3F9D400FCAA42 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C6089A26A3F9D400FCAA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8C6089C26A3F9D400FCAA42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8C6089E26A3F9D400FCAA42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8C608A126A3F9D400FCAA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8C608A326A3F9D500FCAA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8C608A626A3F9D500FCAA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		D8C608B826A3F9D600FCAA42 /* VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C608BC26A3F9D600FCAA42 /* VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITests.swift; sourceTree = "<group>"; };
 		D8C608BE26A3F9D600FCAA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C608CB26A3FA8E00FCAA42 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D8C608CD26A3FA9C00FCAA42 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		D8C608CF26A3FAAD00FCAA42 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		D8C608D126A3FAC300FCAA42 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D8C608D326A3FACD00FCAA42 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,7 @@
 			children = (
 				D8C6089A26A3F9D400FCAA42 /* AppDelegate.swift */,
 				D8C6089C26A3F9D400FCAA42 /* SceneDelegate.swift */,
-				D8C6089E26A3F9D400FCAA42 /* ViewController.swift */,
+				D8C608CA26A3FA7100FCAA42 /* VIPER */,
 				D8C608A026A3F9D400FCAA42 /* Main.storyboard */,
 				D8C608A326A3F9D500FCAA42 /* Assets.xcassets */,
 				D8C608A526A3F9D500FCAA42 /* LaunchScreen.storyboard */,
@@ -126,6 +134,18 @@
 				D8C608BE26A3F9D600FCAA42 /* Info.plist */,
 			);
 			path = VIPERUITests;
+			sourceTree = "<group>";
+		};
+		D8C608CA26A3FA7100FCAA42 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				D8C608CB26A3FA8E00FCAA42 /* View.swift */,
+				D8C608CD26A3FA9C00FCAA42 /* Interactor.swift */,
+				D8C608CF26A3FAAD00FCAA42 /* Presenter.swift */,
+				D8C608D126A3FAC300FCAA42 /* Entity.swift */,
+				D8C608D326A3FACD00FCAA42 /* Router.swift */,
+			);
+			name = VIPER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8C6089F26A3F9D400FCAA42 /* ViewController.swift in Sources */,
+				D8C608D426A3FACD00FCAA42 /* Router.swift in Sources */,
+				D8C608D026A3FAAD00FCAA42 /* Presenter.swift in Sources */,
+				D8C608CC26A3FA8E00FCAA42 /* View.swift in Sources */,
+				D8C608D226A3FAC300FCAA42 /* Entity.swift in Sources */,
+				D8C608CE26A3FA9C00FCAA42 /* Interactor.swift in Sources */,
 				D8C6089B26A3F9D400FCAA42 /* AppDelegate.swift in Sources */,
 				D8C6089D26A3F9D400FCAA42 /* SceneDelegate.swift in Sources */,
 			);
